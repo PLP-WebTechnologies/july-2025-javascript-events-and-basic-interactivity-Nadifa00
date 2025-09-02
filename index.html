@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WEEK 5 ASSIGNMENT</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <p id="heading">Hello, World!</p>
+  <button id="btn">Click to change..</button>
+   <br>
+  <input type="text" id="inputField" placeholder="Enter your name..">
+
+  <div class="FAQs">
+    <div class="FAQ">
+       <button onclick="toggleFAQ(this)">Name of program?</button>
+       <div class="answer">
+        <p>PLP Academy</p>
+       </div>
+    </div>
+    <div class="FAQ">
+       <button onclick="toggleFAQ(this)">How long is program?</button>
+       <div class="answer">
+        <p>16weeks</p>
+       </div>
+    </div>
+    <div class="FAQ">
+       <button onclick="toggleFAQ(this)">Get a Certificate?</button>
+       <div class="answer">
+        <p>Yes</p>
+       </div>
+    </div>
+  </div>
+
+  <p id="number">0</p>
+  <button onclick="increase()">Increase</button>
+  <button onclick="decrease()">Decrease</button>
+
+  <form id="myForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="enter name">
+    <span id="nameError" class="error"></span><br>
+
+    <label for="name">Name:</label>
+    <input type="email" id="email" placeholder="enter email">
+    <span id="emailError" class="error"></span><br>
+
+    <label for="name">Name:</label>
+    <input type="password" id="password" placeholder="enter password">
+    <span id="passwordError" class="error"></span><br>
+    
+    <button type="submit">submit</button>
+
+
+  </form>
+
+
+
+  <script src="main.js"></script>
+</body>
+</html>
